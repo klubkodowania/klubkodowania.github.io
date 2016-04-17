@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 800px;
+    max-width: 100%;
+    float: none;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.page-header {
+    width: 100%;
+    float: left;
+}
+
+.page-header h1 {
+    font: 400 3rem/3.5rem Arial, sans-serif;
+    color: #349946;
+    margin: 3rem 0 1rem 0;
+}
+
+.page-header p {
+    font: 400 1.3rem/1.8rem Arial, sans-serif;
+    color: #202020;
+}
+
+.project-group-title {
+    font: 400 2rem/2.5rem Arial, sans-serif;
+    color: #202020;
+    margin: 3rem 0 1rem 0;
+}
+
+.project {
+    width: 100%;
+    float: left;
+}
+
+.project header {
+    float: left;
+    width: 100%;
+    background: #349946;
+    padding: 0.5rem;
+    border-radius: 4px 4px 0 0;
+}
+
+.project header h3 {
+    font: 400 1.5rem/2rem Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.project-body {
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #349946;
+    float: left;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+}
+
+.project-body li {
+    font: 400 1.2rem/1.5rem Arial, sans-serif;
+    color: #202020;
+    margin: 0 0 1rem 0;
+}
+
+.project-body li.small {
+    list-style: none;
+    font-size:1rem;
+    color: #686868;
+}
+
+.project-body a {
+    color: #349946;
+}
