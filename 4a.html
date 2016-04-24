@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="cc" lang="pl-PL">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="google-site-verification" content="LAa8xdL-G6vOe9RSZnECSduS5m1BMiM8U2erQku5yIE">
+
+    <title>Kapela rockowa — Code Club World Projects</title>
+    <link rel="shortcut icon" href="http://projects.codeclubworld.org/img/cc_favicon.ico">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="assets/master.css">
+</head>
+
+<body class="index-template cc">
+<header class="header" role="banner">
+    <a class="home-link" href="http://projects.codeclubworld.org/index.html">
+        <img alt="" class="logo" src="assets/cc_logo.png" height="100">
+    </a>
+
+    <h1 class="title">Po sznurku do celu. Zadanie dodatkowe.</h1>
+    <span class="level-indicator">Scratch 1</span>
+</header>
+
+<nav class="breadcrumbs">
+    <ul class="breadcrumbs-list">
+        <li class="breadcrumbs-item"><a class="breadcrumbs-link" href="http://projects.codeclubworld.org/index.html">Języki</a>
+        </li>
+        <li class="breadcrumbs-item"><a class="breadcrumbs-link"
+                                        href="http://projects.codeclubworld.org/pl-PL/index.html">Polski</a></li>
+        <li class="breadcrumbs-item"><a class="breadcrumbs-link"
+                                        href="http://projects.codeclubworld.org/pl-PL/01_scratch_01/index.html">Scratch
+            1</a></li>
+        <li class="breadcrumbs-item current">Kapela rockowa</li>
+    </ul>
+</nav>
+
+<main class="main lesson-steps" role="main">
+
+    <section class="level1 intro" id="wstep">
+        <h1>Wstęp</h1>
+        <p>Praca programisty polega nie tylko na programowaniu gier i animacji, czasami programista tworzy również aplikacje, które pomagają
+        innym ludziom w wykonywaniu swoich zadań. Dzisiaj napiszemy aplikację, która ułatwi obliczanie pól figur geometrycznych.</p>
+        <div class="scratch-preview">
+            TODO: dodać preview
+        </div>
+    </section>
+
+    <section id="krok-1-duszki" class="level1 activity">
+        <h1>Krok 1: Przygotuj scenę i duszki</h1>
+
+
+        <section id="zadania-do-wykonania" class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Utwórz nowy projekt i nazwij go "Geometria"</p>
+                </li>
+                <li>
+                    <p>Usuń kota. Dodajmy nowego duszka. Będzie on rozpoczynał działanie aplikacji. Wybierz duszka z biblioteki, może być to np. czarodziej.</p>
+                </li>
+                <li>
+                    <p>Dodaj nowe tło dla sceny. Spośród grafik dostępnych w bibliotece wybierz jedną z grafik dla pomieszczeń i domaluj na nim tablicę.</p>
+                </li>
+                <li>
+                    <p>Teraz Twoja scena powinna wyglądać mniej więcej tak:</p>
+                    <p><img src="assets/g1.PNG"/></p>
+                </li>
+            </ul>
+        </section>
+        <section id="zapisz-swoj-projekt" class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section id="krok-1-duszki" class="level1 activity">
+        <h1>Krok 2: Pozostałe duszki</h1>
+
+        <section id="zadania-do-wykonania" class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Ok. Twoja aplikacja będzie umożliwiała użytkownikom obliczenie pola trójkąta i kwadratu. W tym celu potrzebne będą Ci dwa duszki. Narysuj duszka "Kwadrat" i duszka "Trójkąt" i umieść oba duszki na tablicy.</p>
+                </li>
+                <li>
+                    <p>Twoja scena powinna wyglądać obecnie podobnie do poniższej. Pamiętaj, że Twoje duszki mogą się różnić od zaproponowanych. Jeśli chcesz, możesz urozmaicić figury geometryczne lub zmienić czarodzieja na inną postać.</p>
+                    <p><img src="assets/g2.png" /></p>
+                </li>
+            </ul>
+        </section>
+        <section id="zapisz-swoj-projekt" class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section id="krok-1-duszki" class="level1 activity">
+        <h1>Krok 3: Rozpocznij aplikację</h1>
+
+        <section id="zadania-do-wykonania" class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Zaproś użytkownika do skorzystania z aplikacji. W tym celu niech Twój czarodziej zapyta, której figury pole będziemy liczyć. Dodaj takie bloki kodu dla czarodzieja:</p>
+                    <p><img src="assets/g3.png" /></p>
+                </li>
+                <li>
+                    <p>Następnie użytkownik powinien móc kliknąć na jedną z figur, aby rozpocząć obliczenia. Figury muszą jednak wiedzieć, że któraś z nich została wybrana. W tym celu posłużymy się zdarzeniami i zmienną, która będzie przechowywała informację o tym, która figura została wybrana. Dodaj następujące bloki dla duszka "Kwadrat":</p>
+                    <p><img src="assets/g4.png" /></p>
+                </li>
+                <li>
+                    <p>Pamiętaj, żeby utworzyć zmienną "wybranaFigura", inaczej nie będziesz mógł dodać dla "Kwadratu" takich bloków jak powyżej.</p>
+                </li>
+                <li>
+                    <p>"Trójkąt" również powinien nadać komunikat, kiedy zostanie kliknięty i ustawić odpowiednią wartość zmiennyj "wybranaFigura":</p>
+                    <p><img src="assets/g5.png"/></p>
+                </li>
+            </ul>
+        </section>
+        <section id="zapisz-swoj-projekt" class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section id="krok-1-duszki" class="level1 activity">
+        <h1>Krok 4: Obliczenia</h1>
+
+        <section id="zadania-do-wykonania" class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+            <p>Ok, teraz już Twoja aplikacja wie, że użytkownik wybrał którąś z figur. Co dalej? Musimy obliczyć pole wskazanej figury! Każda z figur zajmie się obliczaniem swojego pola.</p>
+
+            <ul>
+                <li>
+                    <p>Zacznijmy od "Kwadratu". Powinien on zareagować na komunikat "wybrano figurę" i sprawdzić, czy wybrano właśnie jego. Jeśli nie, ukryjmy go, ponieważ będzie zbędny dla dalszego działania aplikacji:</p>
+                    <p><img src="assets/g6.png"/> </p>
+                </li>
+                <li>
+                    <p>Dodaj analogiczny kod dla "Trójkąta". Pamiętaj, żeby zmienić wartość w warunku "Jeżeli..." na "trójkąt"!</p>
+                </li>
+                <li>
+                    <p>Przetestuj aplikację. Czy po wybraniu odpowiedniej figury z tablicy znika druga figura? Czy po ponownym starcie aplikacji obie figury są widoczne? Pewnie nie! Musimy więc dodać następujący kod dla każdej z nich:</p>
+                    <p><img src="assets/g7.png" /></p>
+                </li>
+                <li>
+                    <p>Ok. Jak zapewne pamiętasz, do przechowywania danych w naszych aplikacjach używamy zmiennych. Przygotujmy zmienne do obliczania pola kwadratu i trójkąta. Będą nam potrzebne takie zmienne, jak na obrazku:</p>
+                    <p><img src="assets/g8.png"/></p>
+                </li>
+                <li>
+                    <p>Odznacz widoczność wszystkich zmiennych, poza tą dla pola kwadratu. Zmienna powinna być teraz widoczna na scenie. Kliknij na nią prawym przyciskiem i wybierz opcję "duży odczyt". Teraz nazwa zmiennej na scenie powinna zniknąć. Ustaw zmienną mniej więcej tak jak na obrazku, w tym miejscu wyświetlimy pole kwadratu. Teraz odznacz zmienną, powinna ona zniknąć (ale jest już przygotowana pod późniejsze użycie). Zrób to samo dla trójkąta ze zmienną "poleTrójkąta". Pozostałe zmienne mogą pozostać w takim stanie jak są, one nie będą widoczne.</p>
+                    <p><img src="assets/g9.png"/></p>
+                </li>
+                <li>
+                    <p>Wszystko gotowe, dodajmy kod liczący pole kwadratu (dla duszka "Kwadrat"):</p>
+                    <p><img src="assets/g10.png" /></p>
+                </li>
+                <li>
+                    <p>Przetestuj aplikację. Kliknij na zieloną flagę a następnie wybierz kwadrat. Aplikacja powinna zapytać Cie o długość boku kwadratu. Odpowiedz na pytanie, po chwili zmienna "poleKwadratu" powinna pojawić się obok figury z poprawnym wynikiem.</p>
+                </li>
+                <li>
+                    <p>Dodajmy jeszcze jedną rzecz. Niech "Kwadrat" sam powie, jakie ma pole:</p>
+                    <p><img src="assets/g11.png" /></p>
+                </li>
+            </ul>
+        </section>
+        <section id="zapisz-swoj-projekt" class="level2 save">
+            <h2>Przetestuj i zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section id="krok-1-duszki" class="level1 activity">
+        <h1>Krok 5. Pole trójkąta</h1>
+
+        <section id="zadania-do-wykonania" class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Czas na trójkąt! Jego pole wymaga odrobinę bardziej skomplikowanego wzoru: &frac12; &times; a &times; h, gdzie 'a' to długość podstawy trójkąta,
+                    a 'h' to jego wysokość. Musimy zapytać o te długości użytkownika. Kod dla trójkąta powinien wyglądać więc w ten sposób:</p>
+                    <p><img src="assets/g12.png" /></p>
+                </li>
+                <li>
+                    <p>Twój kod jest gotowy. Sprawdź, czy wszystko działa poprawnie. Właśnie wykonałeś swoją pierwszą użytkową aplikację w Scratchu! Jeżeli masz jeszcze chwilę, spróbuj dodać możliwość liczenia pola koła albo prostokąta.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="zapisz-swoj-projekt" class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+</main>
+
+<aside class="legal-notice copyright">
+    <p>These projects are for use outside the UK only. More information is available on our website at <a
+            href="https://codeclubworld.org/">www.codeclubworld.org</a>.<br>This coursework is developed in the open on
+        GitHub, at <a href="https://github.com/CodeClub/">www.github.com/CodeClub</a>. Come and join us!</p>
+
+    <p>© 2016 Code Club. This content is for non-commercial use only
+        and we reserve the right at any time to withdraw permission for use. Use
+        of Code Club’s trade marks (including but not limited to its name and
+        logo) requires prior written consent. Please read our <a
+                href="https://www.codeclub.org.uk/terms-and-conditions">terms and conditions</a> before volunteering or
+        hosting a Code Club.</p>
+</aside>
+
+<div id="legend">
+    <div>
+        <img src="assets/check.png"
+             alt="Zadania do wykonania">
+
+        <div class="caption"><span class="check_text">Zadania do wykonania</span></div>
+        <div class="description">Wykonaj te <span class="check_text upper">polecenia</span> krok po kroku</div>
+    </div>
+    <div>
+        <img src="assets/flag.png"
+             alt="Przetestuj swój projekt">
+
+        <div class="caption"><span class="flag_text">Przetestuj swój projekt</span></div>
+        <div class="description">Kliknij na zieloną flagę, aby <span class="flag_text upper">przetestować</span> swój
+            kod
+        </div>
+    </div>
+    <div>
+        <img src="assets/save.png"
+             alt="Zapisz swój projekt">
+
+        <div class="caption"><span class="save_text">Zapisz swój projekt</span></div>
+        <div class="description">Teraz <span class="save_text upper">zapisz</span> swój projekt</div>
+    </div>
+</div>
+
+<script src="assets/ga.js" async=""
+        type="text/javascript"></script>
+<script type="text/javascript"
+        src="assets/lesson.js"></script>
+<!-- Google Analytics -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30750176-5']);
+    _gaq.push(['_setDomainName', 'projects.codeclubworld.org']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+</body>
+</html>
