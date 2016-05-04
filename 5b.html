@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html class="cc" lang="pl-PL">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="google-site-verification" content="LAa8xdL-G6vOe9RSZnECSduS5m1BMiM8U2erQku5yIE">
+
+    <title>Code Club World Projects</title>
+    <link rel="shortcut icon" href="http://projects.codeclubworld.org/img/cc_favicon.ico">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="assets/master.css">
+</head>
+
+<body class="index-template cc">
+<header class="header" role="banner">
+    <a class="home-link" href="http://projects.codeclubworld.org/index.html">
+        <img alt="" class="logo" src="assets/cc_logo.png" height="100">
+    </a>
+
+    <h1 class="title">Zadanie dodatkowe. Ping pong.</h1>
+    <span class="level-indicator">Scratch 1</span>
+</header>
+
+<main class="main lesson-steps" role="main">
+
+    <section class="level1 intro" id="wstep">
+        <h1>Wstęp</h1>
+        <p>Dzisiaj wykorzystasz zdobyte wcześniej wiadomości na temat pozycji obiektów, zmiennych i instrukcji
+            warunkowych tworząc grę - Ping Pong.</p>
+        <div class="scratch-preview">
+            <iframe allowtransparency="true" width="485" height="402"
+                    src="//scratch.mit.edu/projects/embed/107761705/?autostart=false" frameborder="0"
+                    allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="krok-1-duszki" class="level1 activity">
+        <h1>Krok 1: Przygotuj scenę i duszki</h1>
+
+
+        <section id="zadania-do-wykonania-1" class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Utwórz nowy projekt i nazwij go "Ping pong"</p>
+                </li>
+                <li>
+                    <p>Usuń kota. Pobierz tło dla projektu z <a href="assets/5b-bg.png" target="_blank">tego miejsca
+                        (kliknij i zapisz grafikę CTR+S!)</a></p>
+                </li>
+                <li>
+                    <p>Dodaj nowe tło dla sceny. Wybierz opcję "Wczytaj tło z pliku" i odnajdź pobraną przed chwilą
+                        grafikę.</p>
+                </li>
+                <li>
+                    <p>Dodaj nowego duszka. Z biblioteki duszków wybierz piłkę (Baseball), którą będziesz odbijał
+                        podczas gry.</p>
+                </li>
+                <li>
+                    <p>Poza piłką potrzebna nam będzie paletka. Dodaj własnego duszka rysując paletkę.</p>
+                </li>
+                <li>
+                    <p>Teraz Twoja scena powinna wyglądać mniej więcej tak:</p>
+                    <p><img src="assets/pp1.png"/></p>
+                </li>
+                <li>
+                    <p>Możesz zmienić nazwy duszków, jeśli chcesz. To może być pomocne na dalszych etapach projektu. W
+                        tym celu kliknij małą niebieską ikonkę
+                        z literką "i" obok miniaturki duszka i zmień jego nazwę.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 2: Nowa piłka!</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+            <ul>
+                <li>
+                    <p>W naszej grze będziesz zdobywał punkty za każde odbicie piłki od paletki. Jeśli piłka dotknie
+                        dolnej krawędzi planszy, wtedy stracisz jedno życie. Gracz będzie miał 5 żyć.
+                        <br>W tym celu musimy
+                        utworzyć dwie zmienne: "wynik" i "życia".</p>
+                    <p><img src="assets/pp3.png"/></p>
+                </li>
+                <li>
+                    <p>Za ustawienie tych zmiennych na początku gry odpowiadać będzie scena. Kliknij na miniaturkę
+                        sceny,
+                        przejdź do zakładki skrypty i dodaj następujący skrypt:</p>
+                    <p><img src="assets/pp2.png"/></p>
+                    <p>Dzięki temu po kliknięciu na flagę scena ustawi odpowiednie zmienne oraz nada komunikat "nowa
+                        piłka", który będzie rozpoczynał grę!</p>
+                </li>
+                <li>
+                    <p>Ktoś musi odebrać nasz komunikat, prawda? Przejdź do duszka "Piłka" i w zakładce skrypty dodaj
+                        następujące skrypty:</p>
+                    <p><img src="assets/pp4.png"/></p>
+                </li>
+                <li>
+                    <p>Powyższy skrypt rozpocznie działanie po otrzymaniu komunikatu "nowa piłka". Wtedy sprawdzimy, czy
+                        graczowi zostały jakieś życia, jeżeli tak, to przeniesiemy piłkę na środek planszy.</p>
+                </li>
+                <li>
+                    <p>Teraz musimy ustawić piłkę w określonym kierunku. Wylosujemy ten kierunek tak, żeby piłka
+                        rozpoczęła ruch ku górnej krawędzi. To da graczowi odrobinę czasu na reakcję. Nastepnie
+                        za pomocą pętli "zawsze" sprawimy, że piłka będzie przesuwała się o 10 kroków, aż napotka
+                        krawędź planszy. Wtedy odbije się. Zmień kod dla piłki i przetestuj działanie:</p>
+                    <p><img src="assets/pp5.png"/></p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 3: Utrata życia</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+            <ul>
+                <li>
+                    <p>To było proste, prawda? Czas na dodanie funkcjonalności utraty życia. Zauważyłeś, że plansza na
+                        przykładzie zaprezentowanym wcześniej ma
+                        na dole różowy prostokąt? Jeśli nie, to spójrz:</p>
+                    <p><img src="assets/pp6.png"/></p>
+                    <p>Dodaj taki sam prostokąt dla Twojej planszy (w tym celu musisz wybrać miniaturkę sceny, przejść
+                        do
+                        zakładki kostiumy i posłużyć się narzędziem do rysowania prostokątów).</p>
+                </li>
+                <li>
+                    <p>Skoro mamy już oznaczoną dolną krawędź planszy, musimy sprawić, żeby piłka zatrzymywała się po
+                        jej dotknięciu i żeby gracz w tym momencie tracił jedno życie. Zaktualizuj swój skrypt dla piłki
+                        w następujący sposób:</p>
+                    <p><img src="assets/pp7.png"/></p>
+                    <p>Zauważ, że kolor wybrany w instrukcji "jeżeli" to taki sam kolor jak tło prostokąta na dole
+                        planszy. Możesz go pobrać klikając najpierw na puste pole wewnątrz bloku "dotyka koloru", a
+                        następnie
+                        na prostokąt.</p>
+                </li>
+                <li>
+                    <p>Powyżej dodaliśmy nadawanie komunikatu o stracie życia, jednak samo nadanie go niczego nie
+                        powoduje, prawda? Ktoś musi go odebrać.
+                        Pamiętasz, że to scena była odpowiedzialna za ustawianie ilości żyć na początku gry? Przejdź do
+                        skryptów dla tła i dodaj obsługę tego komunikatu:</p>
+                    <p><img src="assets/pp8.png"/></p>
+                    <p>Jeżeli więc gracz będzie miał więcej żyć niż 0, gra odejmie mu jedno, a następnie nada ponownie
+                        komunikat "nowa piłka", żeby ustawić piłkę na jej startowej pozycji. Jeśli natomiast graczowi
+                        nie pozostało już żadne życie, tło nada komunikat "koniec gry" i zatrzyma wszystkie skrypty.</p>
+                </li>
+                <li>
+                    <p>Ten komunikat też musimy obsłużyć. Posłuży on nam do tego, żeby piłka wiedziała, kiedy
+                        poinformować gracza o ilości zdobytych punktów na koniec gry. Dodajmy więc taki kod dla piłki:</p>
+                    <p><img src="assets/pp9.png"/></p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 4: Pierwsze punkty</h1>
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+            <ul>
+                <li>
+                    <p>Póki co wiele się w naszej grze nie dzieje. Po kliknięciu na flagę piłka powinna odbić się od
+                        górnej krawędzi, powędrować w kierunku dolnej, wtedy gra odejmie jedno życie i całość zacznie
+                        się od nowa. Ale na końcu nie dostajemy żadnego komunikatu, prawda? Dlaczego?</p>
+                    <p>Nasz poprzedni kod zawiera błąd! Warunek w skryptach dla sceny, który sprawdza, czy po utracie
+                        życia gracz może grać dalej, powinien wyglądać inaczej. Zamiast sprawdzać, czy gracz ma więcej
+                        niż 0 żyć, musimy sprawdzić, czy ma więcej niż jedno życie, a jeśli nie, to ustawić zmienną
+                        "życie" na 0:</p>
+                    <p><img src="assets/pp10.png"/></p>
+                </li>
+                <li>
+                    <p>Błędy naprawione, czas dodać skrypt dla paletki! Będzie to prosta instrukcja, według której
+                        paletka zawsze będzie ustawiać się na pozycji "x" takiej samej jak myszka. Jak zapewne się
+                        domyślasz, dzięki temu będziesz mógł sterować paletką za pomocą myszki. Dodaj taki kod w
+                        skryptach paletki:</p>
+                    <p><img src="assets/pp11.png"/></p>
+                </li>
+                <li>
+                    <p>Teraz musimy sprawić, żeby piłka odbijała się od paletki i żeby każde takie odbicie sprawiało, że
+                        gracz zarobi jeden punkt. Musimy więc zmienić skrypty dla piłki. Dodajmy jeden warunek, Twoje
+                        skrypty powinny wyglądać tak jak poniżej, wtedy piłka po zetknieciu z paletką (blok "jeżeli
+                        dotyka 'paletka'") odbije się, doda 1 punkt i przesunie o 10 kroków.</p>
+                    <p><img src="assets/pp12.png"/></p>
+                </li>
+                <li>
+                    <p>Sprawdź kod. Jeśli piłka nie odbija się poprawnie, pewnie musisz przesunąć środek kostiumu
+                        paletki nieco powyżej jej grafiki. Poproś prowadzącego zajęcia o pomoc, jeżeli nie wiesz jak i
+                        dlaczego należy to zrobić.</p>
+                </li>
+                <li>
+                    <p>Utrudnijmy nieco grę! Niech po każdym odbiciu od paletki piłka zwiększy swoją prędkość. W tym
+                        celu musimy dodać zmienną "prędkość":</p>
+                    <p><img src="assets/pp13.png"/></p>
+                </li>
+                <li>
+                    <p>Teraz wykorzystajmy nową zmienną i nieco zmieńmy kod dla piłki. Zauważasz różnice? Spójrz na kod
+                        poniżej:</p>
+                    <p><img src="assets/pp14.png"/></p>
+                    <p>Dla ułatwienia nowe fragmenty obramowane są czerwonymi prostokątami.</p>
+                </li>
+                <li>
+                    <p>Przetestuj kod! Teraz powinieneś móc odbijać piłkę, zdobywać punkty i tracić życia.</p>
+                    <p>Zauważyłeś, że po pewnym czasie piłka jakby przenikała przez paletkę? To oznacza, że prędkość
+                        jest już za wysoka. Możesz dodać warunek, który sprawdzi, czy prędkość piłki jest mniejsza niż
+                        25 i tylko wtedy zwiększy ją po odbiciu od paletki? Albo zamiast zwiększać prędkość, wylosuj ją
+                        z zakresu od 10 do 20?</p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 5: Bonusy!</h1>
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+            <ul>
+                <li>
+                    <p>Do naszej gry możemy jeszcze dodać bonusy. W tym celu dodaj nowego duszka z biblioteki, np.
+                        motyla. Ustaw go na planszy.</p>
+                </li>
+                <li>
+                    <p>Co pewien czas na planszy pokaże się bonus (za chwile to oprogramujemy), kiedy trafisz w niego
+                        piłką, gra doliczy Ci dodatkowe 10 punktów. Dodajmy następujący warunek w skryptach dla
+                        piłki:</p>
+                    <p><img src="assets/pp15.png"/></p>
+                </li>
+                <li>
+                    <p>Kod dla naszego nowego duszka będzie prosty. Najpierw duszek powinien zniknąć kiedy kliknieto
+                        flagę. Powinien znikać także, kiedy uderza w niego piłka (czyli reagować na komunikat "wyczyść
+                        dodatki"). Poza tym, nasz bonusowy duszek powinien w pętli "zawsze" czekać losową ilość czasu,
+                        wylosować pozycję do pokazania i pokazać się na planszy. Jego skrypty powinny wyglądać w ten
+                        sposób:</p>
+                    <p><img src="assets/pp16.png"/></p>
+                </li>
+                <li>
+                    <p>Brawo! Twoja gra jest gotowa!</p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+</main>
+
+<aside class="legal-notice copyright">
+    <p>These projects are for use outside the UK only. More information is available on our website at <a
+            href="https://codeclubworld.org/">www.codeclubworld.org</a>.<br>This coursework is developed in the open on
+        GitHub, at <a href="https://github.com/CodeClub/">www.github.com/CodeClub</a>. Come and join us!</p>
+
+    <p>© 2016 Code Club. This content is for non-commercial use only
+        and we reserve the right at any time to withdraw permission for use. Use
+        of Code Club’s trade marks (including but not limited to its name and
+        logo) requires prior written consent. Please read our <a
+                href="https://www.codeclub.org.uk/terms-and-conditions">terms and conditions</a> before volunteering or
+        hosting a Code Club.</p>
+</aside>
+
+<div id="legend">
+    <div>
+        <img src="assets/check.png"
+             alt="Zadania do wykonania">
+
+        <div class="caption"><span class="check_text">Zadania do wykonania</span></div>
+        <div class="description">Wykonaj te <span class="check_text upper">polecenia</span> krok po kroku</div>
+    </div>
+    <div>
+        <img src="assets/flag.png"
+             alt="Przetestuj swój projekt">
+
+        <div class="caption"><span class="flag_text">Przetestuj swój projekt</span></div>
+        <div class="description">Kliknij na zieloną flagę, aby <span class="flag_text upper">przetestować</span> swój
+            kod
+        </div>
+    </div>
+    <div>
+        <img src="assets/save.png"
+             alt="Zapisz swój projekt">
+
+        <div class="caption"><span class="save_text">Zapisz swój projekt</span></div>
+        <div class="description">Teraz <span class="save_text upper">zapisz</span> swój projekt</div>
+    </div>
+</div>
+
+<script src="assets/ga.js" async=""
+        type="text/javascript"></script>
+<script type="text/javascript"
+        src="assets/lesson.js"></script>
+<!-- Google Analytics -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30750176-5']);
+    _gaq.push(['_setDomainName', 'projects.codeclubworld.org']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+</body>
+</html>
