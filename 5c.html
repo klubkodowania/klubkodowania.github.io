@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html class="cc" lang="pl-PL">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="google-site-verification" content="LAa8xdL-G6vOe9RSZnECSduS5m1BMiM8U2erQku5yIE">
+
+    <title>Code Club World Projects</title>
+    <link rel="shortcut icon" href="http://projects.codeclubworld.org/img/cc_favicon.ico">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="assets/master.css">
+</head>
+
+<body class="index-template cc">
+<header class="header" role="banner">
+    <a class="home-link" href="http://projects.codeclubworld.org/index.html">
+        <img alt="" class="logo" src="assets/cc_logo.png" height="100">
+    </a>
+
+    <h1 class="title">Zadanie dodatkowe. Złap mnie jeśli potrafisz.</h1>
+    <span class="level-indicator">Scratch 1</span>
+</header>
+
+<main class="main lesson-steps" role="main">
+
+    <section class="level1 intro" id="wstep">
+        <h1>Wstęp</h1>
+        <p>Tym razem przygotujemy grę, w której będziesz musiał w określonym czasie złapać jak najwięcej owoców. Za
+            każdy owoc otrzymasz punkt. Jeśli nie uda Ci się
+            złapać któregoś z nich, stracisz kilka punktów. Przy okazji nauczymy się klonować duszki!</p>
+        <div class="scratch-preview">
+            <iframe allowtransparency="true" width="485" height="402"
+                    src="//scratch.mit.edu/projects/embed/108857187/?autostart=false" frameborder="0"
+                    allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="krok-1-duszki" class="level1 activity">
+        <h1>Krok 1: Przygotuj scenę, duszki i zmienne</h1>
+
+
+        <section id="zadania-do-wykonania-1" class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Utwórz nowy projekt i nazwij go "Złap mnie jeśli potrafisz"</p>
+                </li>
+                <li>
+                    <p>Dodaj tło dla gry. Z biblioteki teł wybierz grafikę z pustynią, będzie idealna dla naszego
+                        projektu.</p>
+                </li>
+                <li>
+                    <p>Czas dodać duszki. Będą nam potrzebne dwa duszki. Jeden to owoc - wybierz duszka pomarańczy z
+                        biblioteki. Drugim duszkiem Ty będziesz sterował, wybierz np. dinozaura.</p>
+                </li>
+                <li>
+                    <p>Twoja scena i duszki powinny wyglądać w ten sposób:</p>
+                    <p><img src="assets/c1.png"/></p>
+                </li>
+                <li>
+                    <p>Twój duszek, Dinozaur, będzie poruszał się w lewo i w prawo. Przygotuj dla niego drugi
+                        kostium:</p>
+                    <p><img src="assets/c2.png"/></p>
+                </li>
+                <li>
+                    <p>Będziemy potrzebować trzech zmiennych: imię, czas, punkty. Dodaj takie zmienne. Ustaw je na
+                        scenie. Dla zmiennej "imię" i "punkty" zmień sposób prezentacji tak, żeby nie było widać ich
+                        nazw, jedynie wartości:</p>
+                    <p><img src="assets/c3.png"/></p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 2: Owoce!</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Grę rozpocznie kliknięcie w zieloną flagę. Wtedy gra powinna zapytać Ciebie o imię, ustawić
+                        zmienne na odpowiednie wartości początkowe i nadać komunikat o starcie, żeby inne duszki
+                        wiedziały, że gra się rozpoczęła.</p>
+                    <p>Dodaj następujący kod dla pomarańczy. Sprawdź, czy kod działa:</p>
+                    <p><img src="assets/c4.png"/></p>
+                </li>
+                <li>
+                    <p>Dobrze, teraz pomarańcza powinna wybrać losowe miejsce na górze ekranu i zacząć spadać, prawda?
+                        Pomarańcza musi wykonać to wiele razy. Do takich zadań idealnie nadają się klony. Każdy klon
+                        pomarańczy będzie działał niezależnie od innych. Musimy więc sprawić, żeby pomarańcza klonowała
+                        siebie co jakiś czas:</p>
+                    <p><img src="assets/c8.png"/></p>
+                </li>
+                <li>
+                    <p>Teraz trudniejsza część! Każdy klon powinien wybrac losowe miejsce na górze ekranu, pokazać się,
+                        rozpocząć ruch w dół i jeśli doleci do dołu, wtedy gracz powinien stracić jeden punkt. Jeśli
+                        natomiast owoc dotknie Dinozaura, klon powinien znikać.
+                        Możemy to zrobić w ten sposób:</p>
+                    <p><img src="assets/c11.png"/></p>
+                </li>
+                <li>
+                    <p>Sprawdź swój kod. Czy pomarańcza zachowuje się we właściwy sposób? Czy co jakiś czas nowy owoc
+                        zaczyna spadać w dół planszy? Czy tracisz punktu, kiedy jest on odpowiednio nisko?</p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 3: Dinozaur!</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Owoce spadają, ale nie mamy jeszcze kodu dla Dinozaura. Na początek musimy sprawić, żeby Dinozaur
+                        zniknął po kliknięciu w zieloną flagę. W międzyczasie może on wybrać dla siebie pozycję
+                        startową. Następnie, kiedy otrzymamy komunikat o rozpoczęciu gry, dodamy obsługę sterowania dla
+                        Dinozaura. Będzie ona bardzo prosta. Jeśli klikniesz strzałkę w prawo, Dinozaur obróci się w
+                        prawo i przesunie o kilka kroków. Jeśli naciśniesz strzałkę w lewo, Dinozaur zacznie poruszać
+                        się w lewo. Jego kod powinien wyglądać następująco:</p>
+                    <p><img src="assets/c6.png"/></p>
+                </li>
+                <li>
+                    <p>Została jeszcze drobna sprawa - Twój Dinozaur nie potrafi zdobywać punktów... Dodajmy więc
+                        odpowiedni kod, dzięki któremu po zetknieciu z pomarańczą Dinozaur z zadowoleniem powie "Mniam!"
+                        i zwiększymy zmienną z punktami o jeden:
+                    </p>
+                    <p><img src="assets/c13.png"/></p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 4: Koniec gry</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Koniec gry powinien nastąpić wtedy, kiedy skończy się czas. Obecnie jednak nic takiego się nie
+                        dzieje. Musimy więc dodać skrypty dla sceny:</p>
+                    <p><img src="assets/c17.png"/></p>
+                    <p>Dzięki temu, kiedy gra się rozpocznie, scena co sekundę zmniejszy wartość zmiennej "czas", a
+                        kiedy już "czas" będzie wynosił "0" scena nada komunikat o zakończeniu gry.</p>
+                </li>
+                <li>
+                    <p>Na taki komunikat Twoje duszki powinny zakończyć swoje działanie. Musisz zaprogramować to w ten
+                        sposób:
+                    </p>
+                    <p><img src="assets/c16.png"/></p>
+                    <p>Taki kod należy dodać dla pomarańczy i Dinozaura.</p>
+                </li>
+                <li>
+                    <p>Ok, ale co z wynikiem? Gra powinna powiedzieć graczowi, ile punktów zdobył. Niech zrobi to
+                        Dinozaur. Wykorzystaj w tym celu komunikat o zakończeniu gry i możliwość łączenia tekstu.</p>
+                    <p><img src="assets/c14.png"/></p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Zadania dodatkowe</h1>
+
+        <section class="check">
+            <ul>
+                <li>
+                    <p>Dodaj dźwięki do Twojej gry! Spróbuj dodać podkład muzyczny oraz dźwięk łapania owocu i dźwięk,
+                        który wybrzmi, kiedy stracisz punkty.</p>
+                </li>
+                <li>
+                    <p>Potrafisz sprawić, żeby za każdym razem owoc zmierzał w nieco innym kierunku, niż pionowo w dół?
+                        Spróbuj losować kierunek przed rozpoczęciem
+                        ruchu klona.</p>
+                </li>
+                <li>
+                    <p>Wiesz, że możesz również zmieniać spadające owoce? Dodaj odpowiednie kostiumy dla Twojej
+                        pomarańczy i losuj jeden z nich zanim pokażesz klona.</p>
+                </li>
+            </ul>
+        </section>
+    </section>
+
+</main>
+
+<aside class="legal-notice copyright">
+    <p>These projects are for use outside the UK only. More information is available on our website at <a
+            href="https://codeclubworld.org/">www.codeclubworld.org</a>.<br>This coursework is developed in the open on
+        GitHub, at <a href="https://github.com/CodeClub/">www.github.com/CodeClub</a>. Come and join us!</p>
+
+    <p>© 2016 Code Club. This content is for non-commercial use only
+        and we reserve the right at any time to withdraw permission for use. Use
+        of Code Club’s trade marks (including but not limited to its name and
+        logo) requires prior written consent. Please read our <a
+                href="https://www.codeclub.org.uk/terms-and-conditions">terms and conditions</a> before volunteering or
+        hosting a Code Club.</p>
+</aside>
+
+<div id="legend">
+    <div>
+        <img src="assets/check.png"
+             alt="Zadania do wykonania">
+
+        <div class="caption"><span class="check_text">Zadania do wykonania</span></div>
+        <div class="description">Wykonaj te <span class="check_text upper">polecenia</span> krok po kroku</div>
+    </div>
+    <div>
+        <img src="assets/flag.png"
+             alt="Przetestuj swój projekt">
+
+        <div class="caption"><span class="flag_text">Przetestuj swój projekt</span></div>
+        <div class="description">Kliknij na zieloną flagę, aby <span class="flag_text upper">przetestować</span> swój
+            kod
+        </div>
+    </div>
+    <div>
+        <img src="assets/save.png"
+             alt="Zapisz swój projekt">
+
+        <div class="caption"><span class="save_text">Zapisz swój projekt</span></div>
+        <div class="description">Teraz <span class="save_text upper">zapisz</span> swój projekt</div>
+    </div>
+</div>
+
+<script src="assets/ga.js" async=""
+        type="text/javascript"></script>
+<script type="text/javascript"
+        src="assets/lesson.js"></script>
+<!-- Google Analyticss -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30750176-5']);
+    _gaq.push(['_setDomainName', 'projects.codeclubworld.org']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+</body>
+</html>
