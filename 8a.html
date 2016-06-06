@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html class="cc" lang="pl-PL">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="google-site-verification" content="LAa8xdL-G6vOe9RSZnECSduS5m1BMiM8U2erQku5yIE">
+
+    <title>Code Club World Projects</title>
+    <link rel="shortcut icon" href="http://projects.codeclubworld.org/img/cc_favicon.ico">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="assets/master.css">
+</head>
+
+<body class="index-template cc">
+<header class="header" role="banner">
+    <a class="home-link" href="http://projects.codeclubworld.org/index.html">
+        <img alt="" class="logo" src="assets/cc_logo.png" height="100">
+    </a>
+
+    <h1 class="title">Zadanie dodatkowe. Kosmiczny obrońca.</h1>
+    <span class="level-indicator">Scratch 2</span>
+</header>
+
+<main class="main lesson-steps" role="main">
+
+    <section class="level1 intro" id="wstep">
+        <h1>Wstęp</h1>
+        <p>Dzisiaj będziemy programować grę, w której zadaniem gracza będzie zestrzelenie wrogich statków kosmicznych za pomocą działa.</p>
+        <div class="scratch-preview">
+            <iframe allowtransparency="true" width="485" height="402"
+                    src="//scratch.mit.edu/projects/embed/108857187/?autostart=false" frameborder="0"
+                    allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="krok-1-duszki" class="level1 activity">
+        <h1>Krok 1: Wczytaj zasoby</h1>
+
+
+        <section id="zadania-do-wykonania-1" class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Utwórz nowy projekt i nazwij go "Kosmiczny obrońca"</p>
+                </li>
+                <li>
+                    <p>Pobierz <a href="assets/kosmiczny-obronca-zrodla.sb2" target="_blank">zasoby dla tego projektu</a> ma swój komputer.</p>
+                </li>
+                <li>
+                    <p>Z menu "Plik" wybierz opcję "Wczytaj ze swojego komputera".</p>
+                    <p><img src="assets/ko-wczytaj.png" /></p>
+                </li>
+                <li>
+                    <p>Powinieneś teraz mieć do dyspozycji przygotowaną scenę i duszki dla tego projektu.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 2: Rozpoczęcie gry!</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Gra będzie rozpoczynała się od kliknięcia na przycisk "Start". O tym, czy gra się rozpoczęła będzie informować
+                    nas zmienna "gra trwa". Musimy dodać taką zmienną.</p>
+                </li>
+                <li>
+                    <p>Ok, teraz czas na dodanie skryptów dla naszego przycisku. Po kliknięciu na zieloną flagę przycisk powinien pojawić się na scenie.
+                    Następnie po kliknięciu w niego, nadany zostanie odpowiedni komunikat i zmieniona wartość zmiennej "gra trwa" na "tak". Wreszcie na samym końcu sprawimy,
+                    że po otrzymaniu komunikatu o rozpoczęciu gry przycisk schowa się.</p>
+                    <p><img src="assets/ko-start-start.png" /></p>
+                </li>
+                <li>
+                    <p>Przetestuj swój projekt. Czy przycisk pojawia się po rozpoczęciu gry? Czy reaguje na kliknięcie? Czy zmienna "gra trwa" zmienia swoją wartość?</p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 3: Działo</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Każde działo musi mieć podstawę. Sprawmy, że po kliknięciu na zieloną flagę podstawa zniknie, a po rozpoczęciu gry pokaże się na
+                        odpowiedniej pozycji. Oto jak powinny wyglądać skrypty dla podstawy:
+                        <img src="assets/ko-podstawa.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>Teraz kolej na działo! Działo również powinno zniknąć kiedy klikniesz na zieloną flagę i pojawić się dopiero po rozpoczęciu gry.
+                    W tym celu należy dodać do niego odpowiednie bloki kodu. Co więcej - działo zawsze powinno być zwrócone w kierunku wskaźnika myszy i mieć odpowiedni
+                    kostium. W tym celu powinineś dodać następujący kod dla działa:</p>
+                    <p>
+                        <img src="assets/ko-dzialo-start.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>Sprawdź, czy Twoje działo posiada takie kostiumy:</p>
+                    <p><img src="assets/ko-dzialo-kostiumy.png" /></p>
+                </li>
+                <li>
+                    <p>Jeżeli tak, możemy oprogramować strzał. Strzał będzie się odbywał po naciśnięciu "spacji". Wtedy działo nada odpowiedni komunikat, zmieni kostium,
+                    odczeka chwilę i wróci do pierwotnego kostiumu. To prosty kod, będzie wyglądał mniej więcej tak:</p>
+                    <p><img src="assets/ko-dzialo-strzal.png" /></p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 4: Ufo</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Tym razem zaczniemy od zdefiniowania nowego bloku dla statku kosmicznego. Statek będzie co kilka sekund klonował się i wykonywał określone
+                    akcje jako klon. Możemy więc zdefiniować nowy blok, w którym określimy procedurę klonowania. Skorzystaj z formularza nowego bloku:</p>
+                    <p><img src="assets/ko-blok.png" /></p>
+                </li>
+                <li>
+                    <p>Przygotuj blok, który będzie nazywał się "Wypuść klona co X sekund". Zamiast X będziesz musiał wstawić pole odpowiedniego typu.
+                    To będzie parametr, który będziemy przekazywać do nowego bloku. Co więcje, musimy sprawić, żeby ufo znikało na początku gry i pojawiało
+                        się dopiero, jak nadamy komunikat "rozpocznij grę". Wtedy, tak długo jak długo zmienna "gra trwa" nie będzie równa "nie", ufo
+                        będzie klonowało się korzystając z naszego nowego bloku.
+                        Tak powinine wyglądać gotowy kod:</p>
+                    <p><img src="assets/ko-ufo-startgry.png" /></p>
+                </li>
+                <li>
+                    <p>
+                        Teraz trzeba oprogramować zachowanie statku kosmicznego po sklonowaniu. Powinien on przede wszystkim wybrać dla siebie losową pozycję
+                        przy lewej krawędzi ekranu, zmienić rozmiar i kolor kostiumu, żeby poszczególne statki różniły się między sobą, a następnie
+                        rozpocząć lot w kierunku prawej krawędzi ekranu.
+                    </p>
+                    <p>
+                        Będziemy też potrzebować nowych zmiennych: "życia" i "wynik".
+                    </p>
+                    <p>
+                        Jeżeli na swojej drodze ufo napotka pocisk, powinno zmienić kostium, dodać jeden punkt do wyniku i zniknąć.
+                    </p>
+                    <p>
+                        Jeżeli natomiast dotrze do prawej krawędzi nietrafione przez pocisk, odejmiemy jedno życie.
+                    </p>
+                    <p>
+                        <img src="assets/ko-ufo-jakoklon.png" />
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 5: Pocisk</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Pocisk powinien ukryć się po rozpoczęciu gry i sklonować siebie, kiedy otrzyma komunikat "strzał".
+                    </p>
+                    <p><img src="assets/ko-pocisk-start.png" /></p>
+                </li>
+                <li>
+                    <p>
+                        Kiedy już sklonujemy pocisk po naciśnięciu spacji, musimy jeszcze wysłać go w kierunku, w którym wskazywał kursor myszy.
+                        W tym celu musimy ustawić jego rozmiar, kierunek i nakazać mu lecieć w kierunku kursora. Można to zrobić za pomocą
+                        takiego kodu:
+                    </p>
+                    <p><img src="assets/ko-pocisk-strzal.png"/> </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 6: Ustawianie danych początkowych i momentu zakończenia gry</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Przejdźmy teraz do skryptów dla sceny. Musimy sprawić, żeby po wciśnięciu zielonej flagi liczba żyć i punktów zresetowała się.
+                    </p>
+                    <p><img src="assets/ko-scena-flaga.png" /></p>
+                    <p>Poza tym, scena będzie kontrolować ilość żyć. Jeżeli gra trwa, scena będzie czekać, aż ilość żyć spadnie poniżej jednego i nada komunikat
+                    o końcu gry.</p>
+                    <p><img src="assets/ko-scena-rozpocznijgre.png"/></p>
+                </li>
+                <li>
+                    <p>Na nowy komunikat powinno zareagować ufo. Jeśli gra się skończyła, wszystkie statki kosmiczne muszą zniknąć ze sceny. Przejdź do skryptów
+                    dla duszka "ufo" i dodaj taki kod:</p>
+                    <p><img src="assets/ko-ufo-koniec.png" /></p>
+                </li>
+                <li>
+                    <p>I jeszcze jedno. Dodajmy nową zmienną, którą będziemy przechowywać w chmurze, nazwijmy ją "rekord". Pamiętaj, żeby zaznaczyć opcję
+                    "Cloud variable":</p>
+                    <p><img src="assets/ko-zmienna.png" /></p>
+                    <p>Po odebraniu komunikatu o zakończeniu gry nasze działo powinno wyświetlić graczowi stosowny komnunikat i zapisać jego wynik jako rekord, jeśli
+                    gracz zdobył więcej punktów niż obecny rekord:</p>
+                    <p><img src="assets/ko-dzialo-koniec.png"/> </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+
+    <section class="activity">
+        <h1>Zadania dodatkowe</h1>
+
+        <section class="check">
+            <ul>
+                <li>
+                    <p>Twoja gra nie ma dźwięków! Dodaj wybrane przez siebie dźwięki w momencie zestrzelenia statku i wystrzelenia pocisku. Może warto dodać muzykę w tle
+                    podczas trwania gry, albo fanfary na zakończenie?</p>
+                </li>
+                <li>
+                    <p>Jeżeli chcesz, zmodyfikuj kostiumy duszków, możesz urozmaicić np. statki kosmiczne i losować kostium podczas tworzenia klona statku.</p>
+                </li>
+                <li>
+                    <p>Spróbuj zwiększyć lub zmniejszyć prędkość pokazywania się nowych statków, albo wylosuj ją dla każdego z nich.</p>
+                </li>
+            </ul>
+        </section>
+    </section>
+
+</main>
+
+<aside class="legal-notice copyright">
+    <p>These projects are for use outside the UK only. More information is available on our website at <a
+            href="https://codeclubworld.org/">www.codeclubworld.org</a>.<br>This coursework is developed in the open on
+        GitHub, at <a href="https://github.com/CodeClub/">www.github.com/CodeClub</a>. Come and join us!</p>
+
+    <p>© 2016 Code Club. This content is for non-commercial use only
+        and we reserve the right at any time to withdraw permission for use. Use
+        of Code Club’s trade marks (including but not limited to its name and
+        logo) requires prior written consent. Please read our <a
+                href="https://www.codeclub.org.uk/terms-and-conditions">terms and conditions</a> before volunteering or
+        hosting a Code Club.</p>
+</aside>
+
+<div id="legend">
+    <div>
+        <img src="assets/check.png"
+             alt="Zadania do wykonania">
+
+        <div class="caption"><span class="check_text">Zadania do wykonania</span></div>
+        <div class="description">Wykonaj te <span class="check_text upper">polecenia</span> krok po kroku</div>
+    </div>
+    <div>
+        <img src="assets/flag.png"
+             alt="Przetestuj swój projekt">
+
+        <div class="caption"><span class="flag_text">Przetestuj swój projekt</span></div>
+        <div class="description">Kliknij na zieloną flagę, aby <span class="flag_text upper">przetestować</span> swój
+            kod
+        </div>
+    </div>
+    <div>
+        <img src="assets/save.png"
+             alt="Zapisz swój projekt">
+
+        <div class="caption"><span class="save_text">Zapisz swój projekt</span></div>
+        <div class="description">Teraz <span class="save_text upper">zapisz</span> swój projekt</div>
+    </div>
+</div>
+
+<script src="assets/ga.js" async=""
+        type="text/javascript"></script>
+<script type="text/javascript"
+        src="assets/lesson.js"></script>
+<!-- Google Analyticss -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30750176-5']);
+    _gaq.push(['_setDomainName', 'projects.codeclubworld.org']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+</body>
+</html>
