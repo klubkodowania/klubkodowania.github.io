@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe4f1bca-4728-4c38-8cd5-76a8ac5d2af7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-dzialo-koniec.png" afterPath="$PROJECT_DIR$/assets/ko-dzialo-koniec.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-dzialo-kostiumy.png" afterPath="$PROJECT_DIR$/assets/ko-dzialo-kostiumy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-dzialo-start.png" afterPath="$PROJECT_DIR$/assets/ko-dzialo-start.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-dzialo-strzal.png" afterPath="$PROJECT_DIR$/assets/ko-dzialo-strzal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-pocisk-start.png" afterPath="$PROJECT_DIR$/assets/ko-pocisk-start.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-pocisk-strzal.png" afterPath="$PROJECT_DIR$/assets/ko-pocisk-strzal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-podstawa.png" afterPath="$PROJECT_DIR$/assets/ko-podstawa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-scena-flaga.png" afterPath="$PROJECT_DIR$/assets/ko-scena-flaga.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-scena-rozpocznijgre.png" afterPath="$PROJECT_DIR$/assets/ko-scena-rozpocznijgre.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-start-start.png" afterPath="$PROJECT_DIR$/assets/ko-start-start.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-ufo-jakoklon.png" afterPath="$PROJECT_DIR$/assets/ko-ufo-jakoklon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-ufo-koniec.png" afterPath="$PROJECT_DIR$/assets/ko-ufo-koniec.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ko-ufo-startgry.png" afterPath="$PROJECT_DIR$/assets/ko-ufo-startgry.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2/index.html" afterPath="$PROJECT_DIR$/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8a.html" afterPath="$PROJECT_DIR$/8a.html" />
     </list>
     <ignored path="klubkodowania.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +51,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="866">
+            <state relative-caret-position="4194">
               <caret line="233" column="21" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
               <folding />
             </state>
@@ -47,14 +61,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="84" column="20" selection-start-line="84" selection-start-column="24" selection-end-line="94" selection-end-column="29" />
+            <state relative-caret-position="272">
+              <caret line="98" column="8" selection-start-line="98" selection-start-column="12" selection-end-line="123" selection-end-column="22" />
               <folding>
-                <marker date="1465238829894" expanded="true" signature="1711:2071" placeholder="..." />
-                <marker date="1465238829894" expanded="true" signature="1842:2038" placeholder="..." />
-                <marker date="1465238829894" expanded="true" signature="2117:2398" placeholder="..." />
-                <marker date="1465238829894" expanded="true" signature="2278:2365" placeholder="..." />
-                <marker date="1465238829894" expanded="true" signature="2444:2609" placeholder="..." />
+                <marker date="1465312115748" expanded="true" signature="1711:2071" placeholder="..." />
+                <marker date="1465312115748" expanded="true" signature="1842:2038" placeholder="..." />
+                <marker date="1465312115748" expanded="true" signature="2117:2398" placeholder="..." />
+                <marker date="1465312115748" expanded="true" signature="2278:2365" placeholder="..." />
+                <marker date="1465312115748" expanded="true" signature="2444:2609" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -63,8 +77,8 @@
       <file leaf-file-name="8a.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8a.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="258" column="132" selection-start-line="258" selection-start-column="132" selection-end-line="258" selection-end-column="132" />
+            <state relative-caret-position="551">
+              <caret line="34" column="177" selection-start-line="34" selection-start-column="177" selection-end-line="34" selection-end-column="177" />
               <folding />
             </state>
           </provider>
@@ -164,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,6 +226,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -233,7 +247,7 @@
       <recent name="C:\work\klubkodowania.github.io\project-files" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.8a.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/klubkodowania.github.io/index.html">
       <method />
     </configuration>
@@ -311,8 +325,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.8a.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.8a.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.5c.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.5b.html" />
@@ -349,12 +363,13 @@
       <workItem from="1464718210917" duration="14000" />
       <workItem from="1464791936293" duration="51000" />
       <workItem from="1464796449863" duration="323000" />
-      <workItem from="1465236310546" duration="2524000" />
+      <workItem from="1465236310546" duration="2563000" />
+      <workItem from="1465311563204" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14512000" />
+    <option name="totallyTimeSpent" value="15111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1922" height="1051" extended-state="6" />
@@ -766,32 +781,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8a.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="258" column="132" selection-start-line="258" selection-start-column="132" selection-end-line="258" selection-end-column="132" />
+        <state relative-caret-position="4194">
+          <caret line="233" column="21" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/8a.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
-          <caret line="233" column="21" selection-start-line="233" selection-start-column="21" selection-end-line="233" selection-end-column="21" />
+        <state relative-caret-position="551">
+          <caret line="34" column="177" selection-start-line="34" selection-start-column="177" selection-end-line="34" selection-end-column="177" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="84" column="20" selection-start-line="84" selection-start-column="24" selection-end-line="94" selection-end-column="29" />
+        <state relative-caret-position="272">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="12" selection-end-line="123" selection-end-column="22" />
           <folding>
-            <marker date="1465238829894" expanded="true" signature="1711:2071" placeholder="..." />
-            <marker date="1465238829894" expanded="true" signature="1842:2038" placeholder="..." />
-            <marker date="1465238829894" expanded="true" signature="2117:2398" placeholder="..." />
-            <marker date="1465238829894" expanded="true" signature="2278:2365" placeholder="..." />
-            <marker date="1465238829894" expanded="true" signature="2444:2609" placeholder="..." />
+            <marker date="1465312115748" expanded="true" signature="1711:2071" placeholder="..." />
+            <marker date="1465312115748" expanded="true" signature="1842:2038" placeholder="..." />
+            <marker date="1465312115748" expanded="true" signature="2117:2398" placeholder="..." />
+            <marker date="1465312115748" expanded="true" signature="2278:2365" placeholder="..." />
+            <marker date="1465312115748" expanded="true" signature="2444:2609" placeholder="..." />
           </folding>
         </state>
       </provider>
