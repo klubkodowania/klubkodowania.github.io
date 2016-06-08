@@ -47,14 +47,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="125" column="7" selection-start-line="125" selection-start-column="7" selection-end-line="125" selection-end-column="7" />
+            <state relative-caret-position="560">
+              <caret line="84" column="20" selection-start-line="84" selection-start-column="24" selection-end-line="94" selection-end-column="29" />
               <folding>
-                <marker date="1465360616715" expanded="true" signature="1711:2071" placeholder="..." />
-                <marker date="1465360616715" expanded="true" signature="1842:2038" placeholder="..." />
-                <marker date="1465360616715" expanded="true" signature="2117:2398" placeholder="..." />
-                <marker date="1465360616715" expanded="true" signature="2278:2365" placeholder="..." />
-                <marker date="1465360616715" expanded="true" signature="2444:2609" placeholder="..." />
+                <marker date="1465403223487" expanded="true" signature="1711:2071" placeholder="..." />
+                <marker date="1465403223487" expanded="true" signature="1842:2038" placeholder="..." />
+                <marker date="1465403223487" expanded="true" signature="2117:2398" placeholder="..." />
+                <marker date="1465403223487" expanded="true" signature="2278:2365" placeholder="..." />
+                <marker date="1465403223487" expanded="true" signature="2444:2609" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -164,6 +164,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,8 +214,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,12 +351,13 @@
       <workItem from="1464796449863" duration="323000" />
       <workItem from="1465236310546" duration="2563000" />
       <workItem from="1465311563204" duration="615000" />
-      <workItem from="1465360602856" duration="62000" />
+      <workItem from="1465360602856" duration="157000" />
+      <workItem from="1465403210243" duration="16000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15228000" />
+    <option name="totallyTimeSpent" value="15339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1922" height="1051" extended-state="6" />
@@ -786,14 +787,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="125" column="7" selection-start-line="125" selection-start-column="7" selection-end-line="125" selection-end-column="7" />
+        <state relative-caret-position="560">
+          <caret line="84" column="20" selection-start-line="84" selection-start-column="24" selection-end-line="94" selection-end-column="29" />
           <folding>
-            <marker date="1465360616715" expanded="true" signature="1711:2071" placeholder="..." />
-            <marker date="1465360616715" expanded="true" signature="1842:2038" placeholder="..." />
-            <marker date="1465360616715" expanded="true" signature="2117:2398" placeholder="..." />
-            <marker date="1465360616715" expanded="true" signature="2278:2365" placeholder="..." />
-            <marker date="1465360616715" expanded="true" signature="2444:2609" placeholder="..." />
+            <marker date="1465403223487" expanded="true" signature="1711:2071" placeholder="..." />
+            <marker date="1465403223487" expanded="true" signature="1842:2038" placeholder="..." />
+            <marker date="1465403223487" expanded="true" signature="2117:2398" placeholder="..." />
+            <marker date="1465403223487" expanded="true" signature="2278:2365" placeholder="..." />
+            <marker date="1465403223487" expanded="true" signature="2444:2609" placeholder="..." />
           </folding>
         </state>
       </provider>
