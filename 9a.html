@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html class="cc" lang="pl-PL">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="google-site-verification" content="LAa8xdL-G6vOe9RSZnECSduS5m1BMiM8U2erQku5yIE">
+
+    <title>Code Club World Projects</title>
+    <link rel="shortcut icon" href="http://projects.codeclubworld.org/img/cc_favicon.ico">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="assets/master.css">
+</head>
+
+<body class="index-template cc">
+<header class="header" role="banner">
+    <a class="home-link" href="http://projects.codeclubworld.org/index.html">
+        <img alt="" class="logo" src="assets/cc_logo.png" height="100">
+    </a>
+
+    <h1 class="title">Zadanie dodatkowe. Biegnij!</h1>
+    <span class="level-indicator">Scratch 2</span>
+</header>
+
+<main class="main lesson-steps" role="main">
+
+    <section class="level1 intro" id="wstep">
+        <h1>Wstęp</h1>
+        <p>Dzisiaj stworzysz grę, w której zadaniem gracza będzie jak najdłuższe unikanie pojawiających się na jego drodze przeszkód.</p>
+        <div class="scratch-preview">
+            <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/113070328/?autostart=false" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="krok-1-duszki" class="level1 activity">
+        <h1>Krok 1: Wczytaj zasoby</h1>
+
+
+        <section id="zadania-do-wykonania-1" class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Utwórz nowy projekt i nazwij go "Biegnij"</p>
+                </li>
+                <li>
+                    <p>Pobierz <a href="assets/zasoby-9a.zip" target="_blank">zasoby dla tego projektu</a> ma swój komputer.</p>
+                </li>
+                <li>
+                    <p>
+                        Plik, który pobrałeś, to archiwum, mieści ono wiele plików, których będziesz potrzebował podczas
+                        tworzenia dzisiejszego projektu. Odnajdź folder, do którego pobrałeś archiwum, kliknij na nie prawym
+                        przyciskiem myszy i wybierz opcję "Wypakuj pliki". Powinieneś utworzyć nowy folder z zasobami. Jeśli
+                        coś poszło nie tak, poproś lidera klubu o pomoc.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 2: Przygotujmy duszki i scenę</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Najpierw scena. Wczytaj tło, które wcześniej pobrałeś. Wybierz opcję Nowe tło > Wczytaj tło z pliku, odnajdź katalog
+                        z zasobami i wybierz plik "tło-projektu.png". Teraz Twoja scena jest niebieska, prawda?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Utwórz nowego duszka poprzez opcję wczytania duszka z pliku. Nazwij go "Postać". Z katalogu z zasobami wybierz zasób "frame-1.png".
+                        Następnie przejdź do zakładki "Kostiumy" i wczytaj kolejne trzy kostiumy duszka - "frame-2.png", "frame-3.png" i "frame-4.png".
+                    </p>
+                    <p>Tak powinna wyglądać lista kostiumów:</p>
+                    <p><img src="assets/9-1.png" /></p>
+                </li>
+                <li>
+                    <p>
+                        Utwórz kolejnego duszka wczytując duszka z pliku. Tym razem znajdź plik "full-background.png", to będzie fragment tła dla naszej gry.
+                        Umieść nowego duszka przy dolnej krawędzi sceny.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Nasza postać musi mieć jakieś podłoże, po którym będzie biegać. Wybierz opcję tworzenia nowego duszka z pliku, odnajdź plik "layer-2.png" i wczytaj go.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Jeszcze jedna rzecz! Potwory. Potrzebujemy kolejnego duszka, znów wybierz opcję wczytania duszka z pliku i znajdź "spike.png", wczytaj ten plik.
+                        Przejdź do zakładki kostiumy nowego duszka i dodaj kolejne kostiumy. W folderze z zasobami jest jeszcze kilka grafik, które przedstawiają różne potwory,
+                        wybierz któreś z nich jako nowe kostiumy.
+                    </p>
+                    <p>
+                        <img src="assets/9-2.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>Podsumowując: powinieneś mieć niebieską scenę, na której znajduje się kolorowe tło, podłoże, postać i potwór. Czy wszystko się zgadza? Czas na odrobinę kodu!</p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 3: Zmienne</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Będziemy potrzebować kilku zmiennych... Na początek utwórz zmienną "wynik", ona będzie przechowywać informacje o wyniku gracza.
+                    </p>
+                    <p>
+                        Twój wynik będziemy chcieli zaprezentować graczowi na sam koniec, do tego będzie potrzebna nowa zmienna "informacja o wyniku". Utwórz taką
+                        zmienną.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Dodaj zmienną "gra trwa". Ta zmienna będzie przyjmować wartości "tak" i "nie". Oznaczać ona będzie, czy gra aktualnie trwa, czy może się już
+                        zakończyła, kiedy np. gracz uderzył w potwora.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Gracz będzie mógł wykonywać skoki swoją postacią. Do tego potrzebne będą dwie zmienne: "wysokość skoku" i "grawitacja". Utwórz takie zmienne.
+                    </p>
+                    <p>
+                        Dodaj też zmienną "prędkość", ponieważ nasza postać przez większość czasu będzie biegła przed siebie z określoną prędkością.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Potrzebujemy też zmiennej "czas oczekiwania". Ona będzie decydować o tym, co jaki czas pojawi się nowy potwór.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <img src="assets/9-3.png" />
+                    </p>
+                    <p>
+                        Czy Ty też masz takie zmienne w swoim projekcie? Pamiętaj, żeby zmienne "wynik" i "informacje o wyniku" miały postać "duży odczyt". Ukryj wszystkie zmienne poza
+                        zmienną "wynik", którą ustaw w górnym prawym rogu sceny.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 4: Kod dla sceny</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Tradycyjnie scena będzie kontrolować przebieg gry. Na początku będziesz musiał zresetować wartość wszystkich zmiennych.
+                        W tym celu zdefiniujmy nowy blok, nazwijmy go "start gry" i podepnij do niego następujące skrypty:
+                    </p>
+                    <p>
+                        <img src="assets/9-4.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Dzięki temu, kiedy gracz kliknie w zieloną flagę i rozpocznie działanie gry, scena ustawi początkowe
+                        wartości zmiennych, takie jak wynik, prędkość (na 5), odpowiednią wysokość skoku, grawitację. Poza tym scena również
+                        pokaże zmienną "wynik" i ukryje zmienną "informacja o wyniku".
+                        I najważniejsze - scena przestawi zmienną "gra trwa" na "tak".
+                    </p>
+                    <p>
+                        Na koniec scena nada komunikat "start".
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Scena również musi kontrolować wynik. W grze wynik będzie zwiększał się o jeden co sekundę. Dodatkowo musimy zwiększać prędkość,
+                        żeby rósł poziom trudności gry (im szybciej biegnie postać, tym trudniej jest omijać przeszkody). To wszystko dzieje się po odebraniu
+                        komunikatu "start", jeżeli "grwa trwa" jest ustawiona na "tak".
+                    </p>
+                    <p>
+                        Oto kolejna porcja kodu dla sceny:
+                    </p>
+                    <p>
+                        <img src="assets/9-5.png" />
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 5: Tło i podłoże</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Przejdź do duszka "tło" (to ten duszek z kostiumem przedstawiającym góry) i dodaj blok kodu, który sprawi, że po otrzymaniu
+                        komunikatu "start" duszek pokaże się.
+                    </p>
+                    <p><img src="assets/9-6.png" /></p>
+                </li>
+                <li>
+                    <p>
+                        Czas na trudniejsza porcję kodu.
+                    </p>
+                    <p>
+                        Nasze podłoże powinno na początku gry ustawić się na odpowiedniej pozycji, a następnie, kiedy otrzyma komunikat "start", zacząć przewijać
+                        się w lewą stronę. Ponieważ Scratch nie umożliwia nam przygotowania dowolnie długiej sceny, musimy to zasymulować. Dlatego to nie nasza postać
+                        będzie biegła w prawą stronę, ale wszystko inne będzie poruszało się w lewo (czyli podłoże i potwory). To prosta sztuczka, chociaż kod może wyglądać na odrobinę
+                        skomplikowany. W razie pytań, poproś o wyjaśnienie lidera klubu. Oto kod dla duszka "podłoże" (to ten duszek z podłużną belką przypominającą
+                        ziemię):
+                    </p>
+                    <p><img src="assets/9-7.png"/> </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 6: Postać</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Czas na kod dla postaci. Pierwszym zadaniem jest ustawienie postaci w odpowiednim miejscu na początku gry oraz przygotowanie
+                        pętli, dzięki której będziemy zmieniać kostium tak, żeby nasza postać biegła.
+                    </p>
+                    <p>
+                        Druga część kodu jest bardziej skomplikowana. Kiedy wciśniemy spację, postać powinna podskoczyć. Do tego wykorzystamy
+                        znaną sztuczkę z grawitacją. Użyjemy też zmiennej "wysokość skoku". Sprawimy, aby nasza postać płynnie wznosiła się i opadała.
+                    </p>
+                    <p>
+                        Co więcej, kiedy postać dotknie potwora, powinna nadać komunikat "koniec".
+                    </p>
+                    <p>
+                        <img src="assets/9-8.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Na komunikat o końcu gry powinny zareagować wszystkie duszki. Dodaj poniższy kod dla każdego duszka:
+                    </p>
+                    <p>
+                        <img src="assets/9-9.png" />
+                    </p>
+                    <p>
+                        Natomiast scena musi jeszcze wykonać dodatkową pracę, oto kod dla niej:
+                    </p>
+                    <p>
+                        <img src="assets/9-10.png" />
+                    </p>
+                    <p>
+                        Zauważyłeś pewnie, że scena przestawi naszą główną zmienną na "nie", dzieki czemu inne duszki będą wiedziały, że gra się już nie toczy
+                        i nie powinny wykonywać swoich zadań. Poza tym ukryjemy zmienną "wynik" i pokażemy "informacja o wyniku" na środku sceny. Niedługo przekonasz
+                        się dlaczego.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 6: Potwory</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Nasza postać potrafi już biegać i skakać. Podłoże przesuwa się w lewo, ale wciąż nie mamy potworów, które będą
+                        stanowiły przeszkody!
+                    </p>
+                    <p>
+                        Kod dla duszka "potwór" będzie bardzo prosty. Chcemy, żeby co jakiś czas pojawiał się nowy potwór i przemierzał
+                        planszę z prawej do lewej strony. Jeśli nasza postać nastąpi na niego, gra się skończy.
+                    </p>
+                    <p>
+                        Musimy więc ukryć potwora na początku gry, a następnie w pętli "zawsze" klonować go co jakiś czas.
+                    </p>
+                    <p>
+                        Każdy klon wylosuje sobie nowy kostium (z tych, które posiada potwór i które dodawałeś na początku), pojawi się przy prawej
+                        krawędzi sceny i zacznie przemieszczać się w lewą stronę z odpowiednią prędkością.
+                    </p>
+                    <p>
+                        Kod powinien wyglądać tak jak poniżej. Wartości pokazane na przykładzie są dobrane w ten sposób, żeby gra nie trwała zbyt długo.
+                        Mój rekord to 37 punktów przy takich ustawieniach. Spróbujesz go pobić? Możesz też zmienić np. wartości graniczne w bloku "losuj"
+                        lub ustawić inną prędkość na początku gry i sprawdzić jak zachowa się potwór.
+                    </p>
+                    <p>
+                        <img src="assets/9-11.png" />
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="activity">
+        <h1>Krok 7: Koniec gry</h1>
+
+        <section class="check">
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Teraz obsłużymy koniec gry. Chcielibyśmy pokazać graczowi informacje o tym, ile punktów uzyskał i dać możliwość
+                        rozpoczęcia gry od nowa. W tym celu utwórz dwa noweg duszki. Jeden to będzie przycisk "Od nowa", drugi to będzie napis
+                        "Koniec gry. Wynik:". Duszki ustawione na planszy będą wyglądać tak jak poniżej. Zauważ, że na planszy widać też zmienną "informacja
+                        o wyniku". Spróbuj uzyskać podobny efekt:
+                    </p>
+                    <p>
+                        <img src="assets/9-12.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>"Koniec gry" będzie miał bardzo prosty kod:</p>
+                    <p><img src="assets/9-13.png" /></p>
+                </li>
+                <li>
+                    <p>Kod dla przycisku "Od nowa" również nie jest skomplikowany:</p>
+                    <p><img src="assets/9-14.png" /></p>
+                </li>
+                <li>
+                    <p>Ostatnia rzecz, kod dla sceny, który sprawi, że gra rozpocznie się od nowa po wciśnięciu przycisku:</p>
+                    <p><img src="assets/9-15.png" /></p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+
+    <section class="activity">
+        <h1>Zadania dodatkowe</h1>
+
+        <section class="check">
+            <ul>
+                <li>
+                    <p>Dodaj dźwięk w momencie uderzenia postaci w potwora oraz muzykę, która będzie grana podczas trwania rozgrywki.</p>
+                </li>
+                <li>
+                    <p>W katalogu z zasobami znajdziesz grafiki chmur. Dodaj nowego duszka, nazwij go "chmury" i spraw, żeby co jakiś czas na niebie przelatywała
+                    chmura. W tym celu możesz wykorzystać np. kod potwora, działa on przecież bardzo podobnie!</p>
+                </li>
+                <li>
+                    <p>W miare upływu czasu coraz trudniej jest przeskakiwać potwory. Możesz dla ułatwienia wprowadzić drugi rodzaj skoku, który będzie pozwalał
+                    przeskoczyć te niższe przeszkody po naciśnięciu jakiegoś klawisza. W tym celu będziesz musiał wykorzystać istniejący kod skoku, ale zmodyfikować
+                    wartość zmiennej "wysokość skoku" przed rozpoczęciem akcji (zmienna powinna mieć mniejszą wartość).</p>
+                </li>
+            </ul>
+        </section>
+    </section>
+
+</main>
+
+<aside class="legal-notice copyright">
+    <p>These projects are for use outside the UK only. More information is available on our website at <a
+            href="https://codeclubworld.org/">www.codeclubworld.org</a>.<br>This coursework is developed in the open on
+        GitHub, at <a href="https://github.com/CodeClub/">www.github.com/CodeClub</a>. Come and join us!</p>
+
+    <p>© 2016 Code Club. This content is for non-commercial use only
+        and we reserve the right at any time to withdraw permission for use. Use
+        of Code Club’s trade marks (including but not limited to its name and
+        logo) requires prior written consent. Please read our <a
+                href="https://www.codeclub.org.uk/terms-and-conditions">terms and conditions</a> before volunteering or
+        hosting a Code Club.</p>
+</aside>
+
+<div id="legend">
+    <div>
+        <img src="assets/check.png"
+             alt="Zadania do wykonania">
+
+        <div class="caption"><span class="check_text">Zadania do wykonania</span></div>
+        <div class="description">Wykonaj te <span class="check_text upper">polecenia</span> krok po kroku</div>
+    </div>
+    <div>
+        <img src="assets/flag.png"
+             alt="Przetestuj swój projekt">
+
+        <div class="caption"><span class="flag_text">Przetestuj swój projekt</span></div>
+        <div class="description">Kliknij na zieloną flagę, aby <span class="flag_text upper">przetestować</span> swój
+            kod
+        </div>
+    </div>
+    <div>
+        <img src="assets/save.png"
+             alt="Zapisz swój projekt">
+
+        <div class="caption"><span class="save_text">Zapisz swój projekt</span></div>
+        <div class="description">Teraz <span class="save_text upper">zapisz</span> swój projekt</div>
+    </div>
+</div>
+
+<script src="assets/ga.js" async=""
+        type="text/javascript"></script>
+<script type="text/javascript"
+        src="assets/lesson.js"></script>
+<!-- Google Analyticss -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30750176-5']);
+    _gaq.push(['_setDomainName', 'projects.codeclubworld.org']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+
+</body>
+</html>
