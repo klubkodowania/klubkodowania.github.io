@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, dd, p, address, pre, blockquote, table {
 /**
  * 1. Set the base element’s `font-size` to the value of your choosing. Set in
  *    ems, assuming a browser default of 16px.
- * 2b. Work out the unitless `line-height` for your project based around your
+ * 2. Work out the unitless `line-height` for your project based around your
  *    desired `line-height` (defined previously in pixels), and your project’s
  *    base font size.
  */
@@ -40,7 +40,7 @@ html {
   font-size: 1.1875em;
   /* [1] */
   line-height: 1.57895;
-  /* [2b] */
+  /* [2] */
   background-image: url(http://basehold.it/i/30);
   /* [3] */
 }

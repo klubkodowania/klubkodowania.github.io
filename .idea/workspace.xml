@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe4f1bca-4728-4c38-8cd5-76a8ac5d2af7" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/2/index.html" afterPath="$PROJECT_DIR$/2b/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project-files/pliki.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/2b/index.html" afterPath="$PROJECT_DIR$/2/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/a_data/jquery.js" afterPath="$PROJECT_DIR$/assets/a_data/jquery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ga.js" afterPath="$PROJECT_DIR$/assets/ga.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/master.css" afterPath="$PROJECT_DIR$/assets/master.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -50,10 +50,30 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2b/index.html">
+        <entry file="file://$PROJECT_DIR$/2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3042">
-              <caret line="169" column="25" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
+            <state relative-caret-position="650">
+              <caret line="192" column="120" selection-start-line="192" selection-start-column="120" selection-end-line="192" selection-end-column="120" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10a.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10a.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10b.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10b.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="41" column="126" selection-start-line="41" selection-start-column="126" selection-end-line="41" selection-end-column="126" />
               <folding />
             </state>
           </provider>
@@ -135,6 +155,9 @@
         <option value="$PROJECT_DIR$/9a.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/2/index.html" />
+        <option value="$PROJECT_DIR$/10b.html" />
+        <option value="$PROJECT_DIR$/10a.html" />
+        <option value="$PROJECT_DIR$/2b/index.html" />
       </list>
     </option>
   </component>
@@ -175,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,13 +240,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2b" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="klubkodowania.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="klubkodowania.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,9 +275,13 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project-files" />
       <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="C:\work\klubkodowania.github.io" />
       <recent name="C:\work\klubkodowania.github.io\project-files" />
     </key>
@@ -372,12 +413,13 @@
       <workItem from="1466002801254" duration="97000" />
       <workItem from="1473700700959" duration="504000" />
       <workItem from="1473788660569" duration="408000" />
-      <workItem from="1473865390906" duration="40000" />
+      <workItem from="1473865390906" duration="90000" />
+      <workItem from="1474393376565" duration="995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23778000" />
+    <option name="totallyTimeSpent" value="24823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1922" height="1051" extended-state="6" />
@@ -417,22 +459,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5c.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4284">
@@ -804,10 +830,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2b/index.html">
+    <entry file="file://$PROJECT_DIR$/10b.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3042">
-          <caret line="169" column="25" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
+        <state relative-caret-position="414">
+          <caret line="41" column="126" selection-start-line="41" selection-start-column="126" selection-end-line="41" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="192" column="120" selection-start-line="192" selection-start-column="120" selection-end-line="192" selection-end-column="120" />
           <folding />
         </state>
       </provider>

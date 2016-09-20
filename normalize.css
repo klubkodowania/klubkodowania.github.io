@@ -2,13 +2,13 @@
 
 /**
  * 1. Change the default font family in all browsers (opinionated).
- * 2b. Prevent adjustments of font size after orientation changes in IE and iOS.
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
 
 html {
     font-family: sans-serif; /* 1 */
-    -ms-text-size-adjust: 100%; /* 2b */
-    -webkit-text-size-adjust: 100%; /* 2b */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /**
@@ -25,7 +25,7 @@ body {
 /**
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
- * 2b. Add the correct display in IE.
+ * 2. Add the correct display in IE.
  */
 
 article,
@@ -35,7 +35,7 @@ figcaption,
 figure,
 footer,
 header,
-main, /* 2b */
+main, /* 2 */
 menu,
 nav,
 section,
@@ -86,12 +86,12 @@ template, /* 1 */
 
 /**
  * 1. Remove the gray background on active links in IE 10.
- * 2b. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
 
 a {
     background-color: transparent; /* 1 */
-    -webkit-text-decoration-skip: objects; /* 2b */
+    -webkit-text-decoration-skip: objects; /* 2 */
 }
 
 /**
@@ -109,13 +109,13 @@ a:hover {
 
 /**
  * 1. Remove the bottom border in Firefox 39-.
- * 2b. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 
 abbr[title] {
     border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2b */
-    text-decoration: underline dotted; /* 2b */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -216,7 +216,7 @@ svg:not(:root) {
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2b. Correct the odd `em` font sizing in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
  */
 
 code,
@@ -224,7 +224,7 @@ kbd,
 pre,
 samp {
     font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2b */
+    font-size: 1em; /* 2 */
 }
 
 /**
@@ -237,13 +237,13 @@ figure {
 
 /**
  * 1. Add the correct box sizing in Firefox.
- * 2b. Show the overflow in Edge and IE.
+ * 2. Show the overflow in Edge and IE.
  */
 
 hr {
     box-sizing: content-box; /* 1 */
     height: 0; /* 1 */
-    overflow: visible; /* 2b */
+    overflow: visible; /* 2 */
 }
 
 /* Forms
@@ -251,7 +251,7 @@ hr {
 
 /**
  * 1. Change font properties to `inherit` in all browsers (opinionated).
- * 2b. Remove the margin in Firefox and Safari.
+ * 2. Remove the margin in Firefox and Safari.
  */
 
 button,
@@ -259,7 +259,7 @@ input,
 select,
 textarea {
     font: inherit; /* 1 */
-    margin: 0; /* 2b */
+    margin: 0; /* 2 */
 }
 
 /**
@@ -291,16 +291,16 @@ select { /* 1 */
 }
 
 /**
- * 1. Prevent a WebKit bug where (2b) destroys native `audio` and `video`
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
- * 2b. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
  */
 
 button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
-    -webkit-appearance: button; /* 2b */
+    -webkit-appearance: button; /* 2 */
 }
 
 /**
@@ -338,14 +338,14 @@ fieldset {
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
- * 2b. Correct the color inheritance from `fieldset` elements in IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
 
 legend {
     box-sizing: border-box; /* 1 */
-    color: inherit; /* 2b */
+    color: inherit; /* 2 */
     display: table; /* 1 */
     max-width: 100%; /* 1 */
     padding: 0; /* 3 */
@@ -362,13 +362,13 @@ textarea {
 
 /**
  * 1. Add the correct box sizing in IE 10-.
- * 2b. Remove the padding in IE 10-.
+ * 2. Remove the padding in IE 10-.
  */
 
 [type="checkbox"],
 [type="radio"] {
     box-sizing: border-box; /* 1 */
-    padding: 0; /* 2b */
+    padding: 0; /* 2 */
 }
 
 /**
@@ -382,12 +382,12 @@ textarea {
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
- * 2b. Correct the outline style in Safari.
+ * 2. Correct the outline style in Safari.
  */
 
 [type="search"] {
     -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2b */
+    outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -410,10 +410,10 @@ textarea {
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2b. Change font properties to `inherit` in Safari.
+ * 2. Change font properties to `inherit` in Safari.
  */
 
 ::-webkit-file-upload-button {
     -webkit-appearance: button; /* 1 */
-    font: inherit; /* 2b */
+    font: inherit; /* 2 */
 }
