@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html class="cc" lang="pl-PL">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="google-site-verification" content="LAa8xdL-G6vOe9RSZnECSduS5m1BMiM8U2erQku5yIE">
+
+    <title>Code Club World Projects</title>
+    <link rel="shortcut icon" href="http://projects.codeclubworld.org/img/cc_favicon.ico">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="../assets/master.css">
+</head>
+
+<body class="index-template cc">
+<header class="header" role="banner">
+    <a class="home-link" href="http://projects.codeclubworld.org/index.html">
+        <img alt="" class="logo" src="../assets/cc_logo.png" height="100">
+    </a>
+
+    <h1 class="title">Zadanie dodatkowe. Własna strona www!</h1>
+    <span class="level-indicator">HTML & CSS</span>
+</header>
+
+<main class="main lesson-steps" role="main">
+
+    <section class="level1 intro" id="wstep">
+        <h1>Wstęp</h1>
+        <p>
+            Dzisiaj nauczymy się jak dodać nowe podstrony do naszej strony internetowej i jak zbudować menu dla
+            łatwiejszej nawigacji po naszej stronie.
+        </p>
+    </section>
+
+    <section class="level1 activity">
+        <h1>Dodanie podstron</h1>
+
+
+        <section class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>Nasza strona się rozrasta. Jeśli na stronie głównej umieścimy wszystkie informacje, stanie się ona nieczytelna,
+                    lepiej podzielić je na kilka podstron. Nie masz pomysłu na to, co może znaleźć się na tych podstronach?</p>
+                    <p>Jeśli prowadzisz stronę o grach komputerowych, każda z nich może mieć podstronę z dokładnym opisem, oceną, obrazami z gry.</p>
+                    <p>Jeżeli robisz stronę www o kotach, dodatkowe podstrony mogą pomóc Ci opisać wiele ras kotów.</p>
+                    <p>Jeśli Twoja strona opowiada o klubi piłkarskim - możesz umieścić jego skład na osobnej podstronie, albo ostatenie mecze lub
+                    tabelę rozgrywek.</p>
+                </li>
+                <li>
+                    <p>
+                        W naszej przykładowej stronie poświęcej podstronę dla każdego semstru zajęć, będę musiał więc utworzyć cztery podstrony, ale zacznę
+                        od scratcha. Aby utworzyć podstronę musisz dodać nowy plik html, np:
+                    </p>
+                    <p>
+                        <img src="assets/3-1.png" />
+                    </p>
+                    <p>
+                        Stronę nazwałem scratch.html. Pamietaj o rozszerzeniu <code>html</code> dla Twojej nowej strony, inaczej przeglądarka
+                        nie będzie wiedziała czym jest Twoja strona i może ona nie działać tak jak tego oczekujesz.
+                    </p>
+                </li>
+                <li>
+                    <p>Strona jest pusta, marny z  niej pożytek. Dodajmy treść. Najłatwiej będzie Ci skopiować zawartość zakładki <code>index.html</code>, wkleić
+                    ją na nową zakładkę i oczyścić z niepotrzebnych informacji. Prawdopodobnie będziesz musiał skasować wszystko, co znajduje się pomiędzy
+                    znacznikami <code>body</code>:</p>
+                    <p>
+                        <img src="assets/3-2.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>Dodajmy przykładową treść strony. Jeszcze nie możesz jej obejrzeć, więc dodaj tylko tytuł strony, resztę dodamy później:</p>
+                    <p>
+                        <img src="assets/3-3.png" />
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+    <section class="level1 activity">
+        <h1>Dodanie menu</h1>
+
+
+        <section class="level2 check">
+
+            <h2>Zadania do wykonania</h2>
+
+            <ul>
+                <li>
+                    <p>
+                        Mamy już fragment naszej nowej strony, ale jak się do niej dostać? Najprościej będzie utworzyć menu na stronie głównej.
+                    </p>
+                    <p>
+                        Menu to lista linków. Znamy już znacznik listy <code>ul</code>, znacznik elementu listy <code>li</code> i znacznik odnośnika (linka)
+                        <code>a</code>. Użyjmy ich. Przejdź do zakładki <code>index.html</code> i dodaj kod dla Twojego menu, w naszym przykładowym projekcie wygląda
+                        to tak:
+                    </p>
+                    <p>
+                        <img src="assets/3-4.png" />
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Pamiętaj, żeby w Twoim kodzie atrybut <code>href</code> dla odnośnika miał taką wartość jak nazwa nowo dodanej podstrony.
+                    </p>
+                    <p>
+                        Kliknij na swój link, działa? Powinieneś zobaczyć nową stronę z tytułem, który dodałeś wcześniej. Jeśli tak się nie stało zapytaj prowdzącego
+                        zajęcia co może być przyczyną problemów.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Wiesz, że Twoje odnośniki w menu mogą wyglądać inaczej niż reszta odnośników? Pamiętasz jak stylowaliśmy odnośniki? Wyglądało to tak:
+                    </p>
+                    <p>
+                        <img src="assets/3-5.png" />
+                    </p>
+                    <p>
+                        Taki kod ostyluje wszystkie odnośniki na Twojej stronie, ale my chcemy, żeby odnośniki w menu wyglądały inaczej. Można to osiągnąć stylując
+                        tylko te odnośniki, które znajdują się w elemencie o id "menu", w ten sposób:
+                    </p>
+                    <p>
+                        <img src="assets/3-6.png" />
+                    </p>
+                    <p>
+                        Widzisz różnicę? Taki kod mówi przeglądarce: znajdź element o id "menu" (<code>#menu</code>), w nim poszukaj wszystkich elementów <code>a</code>
+                        i dla nich zastosuj zielony kolor tekstu. Pamiętaj, żeby pomiędzy <code>#menu</code> a <code>a</code> znalazła się jedna spacja przerwy.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="level2 save">
+            <h2>Zapisz swój projekt</h2>
+        </section>
+    </section>
+
+
+    <section class="level2 challenge">
+        <h2>Już potrafisz:</h2>
+        <p>używać znaczników takich jak <code>h1</code>, <code>h2</code>, <code>p</code>, <code>a</code>, <code>ul</code>, <code>li</code>, <code>div</code>.</p>
+        <p>Twoja strona internetowa powinna już mieć gotową stronę główną, na której opisałeś główny temat i zamieściłeś skrót najważniejszych informacji.</p>
+        <p>Jeśli nie użyłeś wszystkich wymienionych znaczników, zobacz, czy możesz to zrobić na swojej stronie. Możesz umieścić odpowiednie sekcje strony
+            w osobnych znacznikach <code>div</code> lub elementach listy <code>li</code>. Możesz dodać linki do przykładów gier czy książek, które opisujesz.
+            Sprawdź też, czy wiesz jak je ostylować, żeby wyglądały tak jakbyś tego chciał.</p>
+        <p>Poproś prowadzącego zajęcia, żeby obejrzał Twoją stronę.</p>
+        <p>Jesteś ciekaw, jak wygląda strona o Klubach Kodowania? Oto ona: <a href="https://trinket.io/html/8a379af0d4" target="_blank">zobacz!</a>.</p>
+    </section>
+
+</main>
+
+<aside class="legal-notice copyright">
+    <p>These projects are for use outside the UK only. More information is available on our website at <a
+            href="https://codeclubworld.org/">www.codeclubworld.org</a>.<br>This coursework is developed in the open on
+        GitHub, at <a href="https://github.com/CodeClub/">www.github.com/CodeClub</a>. Come and join us!</p>
+
+    <p>© 2016 Code Club. This content is for non-commercial use only
+        and we reserve the right at any time to withdraw permission for use. Use
+        of Code Club’s trade marks (including but not limited to its name and
+        logo) requires prior written consent. Please read our <a
+                href="https://www.codeclub.org.uk/terms-and-conditions">terms and conditions</a> before volunteering or
+        hosting a Code Club.</p>
+</aside>
+
+
+</body>
+</html>
