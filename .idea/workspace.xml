@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe4f1bca-4728-4c38-8cd5-76a8ac5d2af7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3/5.html" afterPath="$PROJECT_DIR$/3/5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3/index.html" afterPath="$PROJECT_DIR$/3/index.html" />
     </list>
     <ignored path="klubkodowania.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="184" column="40" selection-start-line="184" selection-start-column="40" selection-end-line="184" selection-end-column="40" />
+            <state relative-caret-position="567">
+              <caret line="235" column="34" selection-start-line="235" selection-start-column="34" selection-end-line="235" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -37,8 +38,8 @@
       <file leaf-file-name="5.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3/5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+            <state relative-caret-position="-5">
+              <caret line="94" column="74" selection-start-line="94" selection-start-column="74" selection-end-line="94" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -159,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,10 +208,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../koa-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ccm" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -388,12 +389,14 @@
       <workItem from="1479146166283" duration="5000" />
       <workItem from="1479228454459" duration="1824000" />
       <workItem from="1479325245994" duration="36000" />
-      <workItem from="1479629059608" duration="1171000" />
+      <workItem from="1479629059608" duration="1241000" />
+      <workItem from="1479751320718" duration="14000" />
+      <workItem from="1479840109440" duration="222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48406000" />
+    <option name="totallyTimeSpent" value="48712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1922" height="1051" extended-state="6" />
@@ -779,16 +782,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="184" column="40" selection-start-line="184" selection-start-column="40" selection-end-line="184" selection-end-column="40" />
+        <state relative-caret-position="567">
+          <caret line="235" column="34" selection-start-line="235" selection-start-column="34" selection-end-line="235" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3/5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+        <state relative-caret-position="-5">
+          <caret line="94" column="74" selection-start-line="94" selection-start-column="74" selection-end-line="94" selection-end-column="74" />
           <folding />
         </state>
       </provider>
